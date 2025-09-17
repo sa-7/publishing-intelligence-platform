@@ -1,0 +1,28 @@
+{
+  "name": "publishing-intelligence-platform",
+  "version": "1.0.0",
+  "description": "AI-powered dashboard for scientific publishing intelligence",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "setup": "node setup.js",
+    "import": "node data-import.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["publishing", "analytics", "dashboard", "ai"],
+  "author": "World Scientific Publishing",
+  "license": "MIT"
+}
